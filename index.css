@@ -1,0 +1,65 @@
+h3 {
+    text-align: center;
+    color: black;
+}
+
+#form {
+    position: relative;
+    left: 20%;
+    top: 11%;
+    left: 21%;
+    width: 380px;
+    height: 600px;
+}
+input {
+    background-color:rgba(226, 219, 219, 0.658);
+    border-radius: 30px;
+    text-shadow: none;
+    border-color:rgba(226, 219, 219, 0.658);
+}
+
+
+#form button {
+    background:#042ee9;
+    color: white;
+    border-radius: 30px;
+    border-color: rgba(226, 219, 219, 0.658);   
+    height: 30px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+    
+}
+
+#form button:hover {
+
+    background: rgba(226, 219, 219, 0.658);
+    color: black;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+}
+
+#form select {
+    background-color: rgba(226, 219, 219, 0.658);
+    border-radius: 0px;
+    width: 100px;
+}
+
+fieldset {
+    background-color: rgba(226, 219, 219, 0.658);
+    width: 750px;
+    height: 400px;
+    line-height: 30px;
+}
+
+legend {
+    text-align: center;
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td.form-org {
+    background-color: red;
+}
